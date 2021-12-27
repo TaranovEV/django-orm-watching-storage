@@ -26,7 +26,7 @@ project/settings.py - настройка подключения к БД, нео�
 ```
   DATABASE_URL = postgres://USER:PASSWORD@HOST:PORT/NAME_BD
   SECRET_KEY = <...>
-  ALLOWED_HOSTS = 'localhost', '127.0.0.1'
+  ALLOWED_HOSTS = '127.0.0.1'
   DEBUG = <true/false>
 ```
 
